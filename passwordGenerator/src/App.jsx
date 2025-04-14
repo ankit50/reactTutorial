@@ -1,7 +1,8 @@
 import { useState, useCallback, useEffect, useRef } from "react"
 
 function App() {
-  const [length, setLength] = useState(8);
+  const [length, setLength] = useState(7);
+  te(8);
   const [charFlag, setCharFlag] = useState(false);
   const [numberFlag, setNumberFlag] = useState(false);
   const [password, setPassword] = useState("");
